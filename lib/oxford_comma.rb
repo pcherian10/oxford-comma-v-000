@@ -6,7 +6,7 @@ def oxford_comma(array)
     string += "#{var},"
     string += "and #{var}" if(var == array[-1])
   end
-  string
+  puts string
 end
 
 oxford_comma(["kiwi", "durian", "starfruit"])
