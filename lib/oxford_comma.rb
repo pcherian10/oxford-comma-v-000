@@ -9,3 +9,5 @@ def oxford_comma(array)
   end
   string
 end
+
+oxford_comma(kiwi", "durian", "starfruit"
