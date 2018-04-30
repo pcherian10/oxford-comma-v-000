@@ -7,5 +7,5 @@ def oxford_comma(array)
     string += "#{var},"
     string += "and #{var}" if(var == arr[-1])
   end
-
+  string
 end
