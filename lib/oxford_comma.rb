@@ -1,6 +1,6 @@
 def oxford_comma(array)
-  return arr if arr.length == 1
-  arr.each.with_index do |var, i|
+  return array if arr.length == 1
+  array.each.with_index do |var, i|
     string = " "
     return "#{var} and #{var[i + 1]}" if (arr.length == 2)
     string += "#{var},"
