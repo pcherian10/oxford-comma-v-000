@@ -1,5 +1,6 @@
 def oxford_comma(array)
   arr = array.join(",")
+  puts arr
   return arr if arr.length == 1
   arr.each.with_index do |var, i|
     string = " "
